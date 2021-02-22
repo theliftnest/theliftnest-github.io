@@ -10,9 +10,9 @@ published: true
 header-heading: Thanks for visiting us. We are launching our website very soon
 header-text: Get notified when we launch
 about-the-project-heading: About the project
+about-the-project-image: /assets/images/the-liftnest-blueprint.jpg
 about-the-project-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Tristique risus nec feugiat in fermentum posuere. Commodo elit at imperdiet dui accumsan. Gravida cum sociis natoque penatibus et magnis dis. Pulvinar neque laoreet suspendisse interdum consectetur libero. Mauris augue neque gravida in. Cras semper auctor neque vitae tempus quam pellentesque nec.
 about-us-heading: About us
-contact-line: contact us at
-contact-mail: info@theliftnest.com
+contact-text: contact us at
+contact-email: info@theliftnest.com
 ---
-{{ page.header-heading }}
