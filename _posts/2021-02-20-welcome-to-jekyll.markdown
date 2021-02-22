@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to theLiftNest"
 date:   2021-02-20 16:15:12 -0500
 categories: jekyll update
 ---
