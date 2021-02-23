@@ -2,6 +2,10 @@
 // Design and Development. Fluorescente. Github: @fluorescente
 // fluorescente.design
 
+// Type scale: https://www.modularscale.com/?16&px&1.125
+// Spaces scale: 2 / 4 / 8 / 16 / 32 / 64 / 128
+// Spaces scale: 6 / 12 / 24 / 48
+
 // Type variables
 
 $sans-serif: 'League Spartan Variable', sans-serif;
@@ -14,6 +18,7 @@ $semibold: 600;
 
 $dark: #37374C;
 $bright: #fff;
+$brand: #FF5B29;
 
 // General
 
@@ -62,8 +67,56 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
+a{
+  color: $dark;
+  text-decoration: underline;
+  &:hover{
+    color: $brand;
+  }
+}
+
 h1, h2, h3, h4, h5, h6{
   color: $dark;
   font-family: $sans-serif;
   font-weight: $semibold;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+h1{
+  // h1-xs: 32.437px / 36.491px
+  font-size: 2.027rem;
+  line-height: 2.281rem;
+}
+
+h2{
+  // h2-xs: 28.833px / 32.437px
+  font-size: 1.802rem;
+  line-height: 2.027rem;
+}
+
+h3{
+  // h2-xs: 25.629px / 28.833px
+  font-size: 1.602rem;
+  line-height: 1.802rem;
+}
+
+.giant{
+  // p-giant-lg: 25.629px / 32.437px
+  font-size: 1.602rem;
+  line-height: 2.027rem;
+}
+
+.big{
+  // p-big-xs: 20.25px / 25.629px
+  font-size: 1.266rem;
+  line-height: 1.602rem;
+}
+
+p{
+  // p-xs: 16px / 28.833px
+  font-size: 1rem;
+  line-height: 1.802rem;
 }

@@ -7,7 +7,7 @@ title: theliftnest
 date: 2021-02-22 09:45:12 -0500
 permalink: /
 published: true
-header-heading: Thanks for visiting us. We are launching our website very soon
+header-heading: Thanks for visiting us. <span class="break"></span>We are launching our website very soon
 header-text: Get notified when we launch
 header-image: /assets/images/the-liftnest-bed.jpg
 about-the-project-heading: About the project
