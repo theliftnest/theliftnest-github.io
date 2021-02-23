@@ -162,6 +162,9 @@ h5{
   margin-bottom: $two-spaces;
 }
 
+$giant-size: 1.602rem;
+
+
 .big{
   // p-big-xs: 20.25px / 25.629px
   font-size: 1.266rem;
@@ -169,22 +172,106 @@ h5{
   margin-bottom: $one-space;
 }
 
-p{
+$big-size: 1.266rem;
+
+p, .mid{
   // p-xs: 16px / 28.833px
   font-size: 1rem;
   line-height: 1.802rem;
+}
+
+$mid-size: 1rem;
+
+// Form
+
+:focus{
+  outline: 0;
+}
+
+input, textarea {
+  width: 100%;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #979797;
+  padding: $half-space 0;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: $one-space-and-a-half;
+  font-size: $big-size;
+  color: $dark;
+}
+
+input[type="email" i]{
+  width: 98.9%;
+}
+
+::-webkit-input-placeholder{
+  color: #9A9AA2;
+  font-size: $big-size;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #9A9AA2;
+  font-size: $big-size;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #9A9AA2;
+  font-size: $big-size;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #9A9AA2;
+  font-size: $big-size;
+}
+
+input:placeholder-shown {
+  font-size: $big-size;
+}
+
+.button{
+  color: $bright;
+  background-color: $brand;
+  border-bottom: none;
+  font-weight: $medium;
+  cursor: pointer;
+  &:hover{
+    background-color: $dark;
+  }
+}
+
+// Header
+
+header{
+  margin: $three-spaces 0;
+  & .header-image{
+    margin: 0 0 $two-spaces 0;
+  }
+  & .big{
+    margin-bottom: $two-spaces;
+  }
+}
+
+// About the project
+
+.about-the-project{
+  & figure{
+    margin-bottom: $two-spaces;
+  }
 }
 
 // About us
 
 .team-members{
   & li{
-    margin-bottom: $two-spaces;
+    margin-bottom: $three-spaces;
     &:last-child{
       margin-bottom: 0;
     }
     & figure{
       margin-bottom: $one-space;
+    }
+    & h4{
+      margin-bottom: $quarter-space;
+    }
+    & .big{
+      margin-bottom: $one-space-and-a-half;
     }
   }
 }

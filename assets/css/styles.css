@@ -107,19 +107,96 @@ h5 {
   margin-bottom: 1rem;
 }
 
-p {
+p, .mid {
   font-size: 1rem;
   line-height: 1.802rem;
 }
 
-.team-members li {
+:focus {
+  outline: 0;
+}
+
+input, textarea {
+  width: 100%;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #979797;
+  padding: 0.5rem 0;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 1.5rem;
+  font-size: 1.266rem;
+  color: #37374C;
+}
+
+input[type=email i] {
+  width: 98.9%;
+}
+
+::-webkit-input-placeholder {
+  color: #9A9AA2;
+  font-size: 1.266rem;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9A9AA2;
+  font-size: 1.266rem;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #9A9AA2;
+  font-size: 1.266rem;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #9A9AA2;
+  font-size: 1.266rem;
+}
+
+input:placeholder-shown {
+  font-size: 1.266rem;
+}
+
+.button {
+  color: #fff;
+  background-color: #FF5B29;
+  border-bottom: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #37374C;
+}
+
+header {
+  margin: 3rem 0;
+}
+header .header-image {
+  margin: 0 0 2rem 0;
+}
+header .big {
   margin-bottom: 2rem;
+}
+
+.about-the-project figure {
+  margin-bottom: 2rem;
+}
+
+.team-members li {
+  margin-bottom: 3rem;
 }
 .team-members li:last-child {
   margin-bottom: 0;
 }
 .team-members li figure {
   margin-bottom: 1rem;
+}
+.team-members li h4 {
+  margin-bottom: 0.25rem;
+}
+.team-members li .big {
+  margin-bottom: 1.5rem;
 }
 
 .contact-us {
