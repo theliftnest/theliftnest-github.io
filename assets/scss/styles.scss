@@ -20,6 +20,8 @@ $dark: #37374C;
 $bright: #fff;
 $brand: #FF5B29;
 
+$gray-1: #FAFAFA;
+
 // Space variables
 
 p{
@@ -36,7 +38,7 @@ $half-space: .5rem;
 $one-space: 1rem;
 
 // 24px
-$one-space-and-a-half: 1.2rem;
+$one-space-and-a-half: 1.5rem;
 
 // 32px
 $two-spaces: 2rem;
@@ -46,7 +48,6 @@ $three-spaces: 3rem;
 
 // 64
 $four-spaces: 4rem;
-
 
 
 // General
@@ -78,6 +79,10 @@ ul{
   content: '';
 }
 
+section{
+  margin-bottom: 3rem;
+}
+
 // Font-face
 
 @font-face {
@@ -86,6 +91,7 @@ ul{
   font-weight: 200 900;
 }
 
+// Text styles
 
 body{
   font-family: $sans-serif;
@@ -167,4 +173,11 @@ p{
   // p-xs: 16px / 28.833px
   font-size: 1rem;
   line-height: 1.802rem;
+}
+
+// footer
+
+footer{
+  background: $gray-1;
+  padding: $two-spaces 0 $three-spaces 0;
 }

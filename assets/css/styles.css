@@ -29,6 +29,10 @@ ul li {
   content: "";
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
 @font-face {
   font-family: "League Spartan Variable";
   src: url("../fonts/league-spartan/LeagueSpartan-VF.woff2") format("woff2-variations");
@@ -106,6 +110,11 @@ h5 {
 p {
   font-size: 1rem;
   line-height: 1.802rem;
+}
+
+footer {
+  background: #FAFAFA;
+  padding: 2rem 0 3rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
