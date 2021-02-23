@@ -1,0 +1,69 @@
+// The LiftNest
+// Design and Development. Fluorescente. Github: @fluorescente
+// fluorescente.design
+
+// Type variables
+
+$sans-serif: 'League Spartan Variable', sans-serif;
+
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+
+// Color variables
+
+$dark: #37374C;
+$bright: #fff;
+
+// General
+
+figure{
+  margin: 0;
+  & img{
+    width: 100%;
+  }
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  & li{
+    list-style-type: none;
+  }
+}
+
+.inline{
+  display: inline-block;
+  & li{
+    display: inline-block;
+  }
+}
+
+.break{
+  display: block;
+  content: '';
+}
+
+// Font-face
+
+@font-face {
+  font-family: 'League Spartan Variable';
+  src: url('../fonts/league-spartan/LeagueSpartan-VF.woff2') format('woff2-variations');
+  font-weight: 200 900;
+}
+
+
+body{
+  font-family: $sans-serif;
+  font-weight: $regular;
+  color: $dark;
+  background-color: $bright;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: $dark;
+  font-family: $sans-serif;
+  font-weight: $semibold;
+}
