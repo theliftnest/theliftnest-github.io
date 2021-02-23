@@ -112,9 +112,35 @@ p {
   line-height: 1.802rem;
 }
 
+.team-members li {
+  margin-bottom: 2rem;
+}
+.team-members li:last-child {
+  margin-bottom: 0;
+}
+.team-members li figure {
+  margin-bottom: 1rem;
+}
+
+.contact-us {
+  margin-top: 4rem;
+}
+
 footer {
   background: #FAFAFA;
   padding: 2rem 0 3rem 0;
+}
+footer .logo {
+  width: 48%;
+  margin: 0 auto 2rem auto;
+}
+footer nav a {
+  text-decoration: none;
+}
+footer nav li {
+  font-weight: 600;
+  display: block !important;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

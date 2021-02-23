@@ -28,7 +28,7 @@ p{
   margin: 0;
 }
 
-// 8px
+// 4px
 $quarter-space: .25rem;
 
 // 8px
@@ -175,9 +175,43 @@ p{
   line-height: 1.802rem;
 }
 
+// About us
+
+.team-members{
+  & li{
+    margin-bottom: $two-spaces;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    & figure{
+      margin-bottom: $one-space;
+    }
+  }
+}
+
+// contact us
+
+.contact-us{
+  margin-top: $four-spaces;
+}
+
 // footer
 
 footer{
   background: $gray-1;
   padding: $two-spaces 0 $three-spaces 0;
+  & .logo{
+    width: 48%;
+    margin: 0 auto $two-spaces auto;
+  }
+  & nav{
+    & a{
+      text-decoration: none;
+    }
+    & li{
+      font-weight: $semibold;
+      display: block !important;
+      margin-bottom: $one-space;
+    }
+  }
 }
