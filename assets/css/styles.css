@@ -163,6 +163,7 @@ input:placeholder-shown {
   background-color: #FF5B29;
   border-bottom: none;
   font-weight: 500;
+  padding: 0.5rem;
   cursor: pointer;
 }
 .button:hover {
