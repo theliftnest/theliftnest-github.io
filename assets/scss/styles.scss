@@ -20,6 +20,35 @@ $dark: #37374C;
 $bright: #fff;
 $brand: #FF5B29;
 
+// Space variables
+
+p{
+  margin: 0;
+}
+
+// 8px
+$quarter-space: .25rem;
+
+// 8px
+$half-space: .5rem;
+
+// 16px
+$one-space: 1rem;
+
+// 24px
+$one-space-and-a-half: 1.2rem;
+
+// 32px
+$two-spaces: 2rem;
+
+// 48
+$three-spaces: 3rem;
+
+// 64
+$four-spaces: 4rem;
+
+
+
 // General
 
 figure{
@@ -89,30 +118,49 @@ h1{
   // h1-xs: 32.437px / 36.491px
   font-size: 2.027rem;
   line-height: 2.281rem;
+  margin-bottom: $two-spaces;
 }
 
 h2{
   // h2-xs: 28.833px / 32.437px
   font-size: 1.802rem;
   line-height: 2.027rem;
+  margin-bottom: $two-spaces;
 }
 
 h3{
-  // h2-xs: 25.629px / 28.833px
+  // h3-xs: 25.629px / 28.833px
   font-size: 1.602rem;
   line-height: 1.802rem;
+  margin-bottom: $two-spaces;
+}
+
+h4{
+  // h4-xs: 22.781px / 25.629px
+  font-size: 1.424rem;
+  line-height: 1.602rem;
+  margin-bottom: $one-space;
+}
+
+h5{
+  // h5-xs: 20.25px / 22.781px
+  font-size: 1.266rem;
+  line-height: 1.424rem;
+  margin-bottom: $one-space;
 }
 
 .giant{
   // p-giant-lg: 25.629px / 32.437px
   font-size: 1.602rem;
   line-height: 2.027rem;
+  margin-bottom: $two-spaces;
 }
 
 .big{
   // p-big-xs: 20.25px / 25.629px
   font-size: 1.266rem;
   line-height: 1.602rem;
+  margin-bottom: $one-space;
 }
 
 p{
