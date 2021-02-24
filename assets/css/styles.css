@@ -163,7 +163,7 @@ input:placeholder-shown {
   background-color: #FF5B29;
   border-bottom: none;
   font-weight: 500;
-  padding: 0.5rem 2rem;
+  padding: 0.75rem 2rem;
   cursor: pointer;
   text-decoration: none;
 }

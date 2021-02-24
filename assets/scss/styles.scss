@@ -34,6 +34,9 @@ $quarter-space: .25rem;
 // 8px
 $half-space: .5rem;
 
+// 12px
+$half-space-and-quarter: .75rem;
+
 // 16px
 $one-space: 1rem;
 
@@ -230,7 +233,7 @@ input:placeholder-shown {
   background-color: $brand;
   border-bottom: none;
   font-weight: $medium;
-  padding: $half-space $two-spaces;
+  padding: $half-space-and-quarter $two-spaces;
   cursor: pointer;
   text-decoration: none;
   &:hover{
