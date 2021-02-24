@@ -257,6 +257,8 @@ input:placeholder-shown {
     background-color: $dark;
     color: $bright;
     text-decoration: none;
+    -webkit-transition: $transition-quick;
+    transition: $transition-quick;
   }
 }
 
@@ -352,6 +354,7 @@ footer{
       text-decoration: none;
       &:hover{
         text-decoration: none;
+        transition: $transition-quick;
       }
     }
     & ul{

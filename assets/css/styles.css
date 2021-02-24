@@ -177,6 +177,8 @@ input:placeholder-shown {
   background-color: #37374C;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 
 header {
@@ -254,6 +256,7 @@ footer nav a {
 }
 footer nav a:hover {
   text-decoration: none;
+  transition: 0.4s ease;
 }
 footer nav ul {
   margin-bottom: 0 !important;

@@ -82,6 +82,10 @@ $four-spaces: 4rem;
   }
   footer{
     padding: $two-spaces 0;
+    & .logo{
+      position: relative;
+      top: .33rem;
+    }
     & li{
       margin-right: $one-space-and-a-half;
       display: inline-block !important;
