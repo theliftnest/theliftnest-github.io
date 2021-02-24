@@ -105,6 +105,11 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
+.full-height-width{
+  height: 100%;
+  margin: 0;
+}
+
 a{
   color: $dark;
   text-decoration: underline;
@@ -229,6 +234,7 @@ input:placeholder-shown {
 }
 
 .button{
+  display: inline-block;
   color: $bright;
   background-color: $brand;
   border-bottom: none;
@@ -260,12 +266,25 @@ header{
 .confirmation{
   & .message-box{
     margin-top: $four-spaces;
+    background: $bright;
+    border-radius: 1rem;
+    padding: $four-spaces $two-spaces;
     & .logo{
-      width: 30%;
+      width: 12rem;
       margin: 0 auto;
       margin-bottom: $two-spaces;
     }
+    & h1{
+      margin-bottom: $one-space-and-a-half;
+    }
+    & p{
+      margin-bottom: $two-spaces;
+    }
   }
+}
+
+.gray-one-background{
+  background-color: $gray-1;
 }
 
 // About the project

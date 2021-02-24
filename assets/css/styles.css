@@ -47,6 +47,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.full-height-width {
+  height: 100%;
+  margin: 0;
+}
+
 a {
   color: #37374C;
   text-decoration: underline;
@@ -159,6 +164,7 @@ input:placeholder-shown {
 }
 
 .button {
+  display: inline-block;
   color: #fff;
   background-color: #FF5B29;
   border-bottom: none;
@@ -185,11 +191,24 @@ header .big {
 
 .confirmation .message-box {
   margin-top: 4rem;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
 }
 .confirmation .message-box .logo {
-  width: 30%;
+  width: 12rem;
   margin: 0 auto;
   margin-bottom: 2rem;
+}
+.confirmation .message-box h1 {
+  margin-bottom: 1.5rem;
+}
+.confirmation .message-box p {
+  margin-bottom: 2rem;
+}
+
+.gray-one-background {
+  background-color: #FAFAFA;
 }
 
 .about-the-project figure {
