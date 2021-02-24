@@ -1,0 +1,158 @@
+// The LiftNest
+// Design and Development. Fluorescente. Github: @fluorescente
+// fluorescente.design
+
+// Type scale: https://www.modularscale.com/?16&px&1.125
+// Spaces scale: 2 / 4 / 8 / 16 / 32 / 64 / 128
+// Spaces scale: 6 / 12 / 24 / 48
+
+// Type variables
+
+$sans-serif: 'League Spartan Variable', sans-serif;
+
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+
+// Color variables
+
+$dark: #37374C;
+$bright: #fff;
+$brand: #FF5B29;
+
+$gray-1: #FAFAFA;
+
+// Space variables
+
+p{
+  margin: 0;
+}
+
+// 4px
+$quarter-space: .25rem;
+
+// 8px
+$half-space: .5rem;
+
+// 12px
+$half-space-and-quarter: .75rem;
+
+// 16px
+$one-space: 1rem;
+
+// 24px
+$one-space-and-a-half: 1.5rem;
+
+// 32px
+$two-spaces: 2rem;
+
+// 48
+$three-spaces: 3rem;
+
+// 64
+$four-spaces: 4rem;
+
+
+// xs - Up to 768px
+@media only screen and (max-width: 48em){
+  // visible/hidden
+  .visible-sm{
+    display: block;
+  }
+  .hidden-xs{
+    display: none;
+  }
+}
+
+// sm - from 768
+@media only screen and (min-width: 48em) {
+  // visible/hidden
+  .visible-sm{
+    display: block;
+  }
+  .hidden-sm{
+    display: none;
+  }
+  header{
+    & .form-box{
+      & .button{
+        width: inherit;
+      }
+    }
+  }
+  footer{
+    padding: $two-spaces 0;
+    & li{
+      margin-right: $one-space-and-a-half;
+      display: inline-block !important;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+// lg - from 962
+@media only screen and (min-width: 62em) {
+  // visible/hidden
+  .visible-lg{
+    display: block;
+  }
+  .hidden-lg{
+    display: none;
+  }
+  // Type
+  h1{
+    // h1-lg: 41.053px / 46.184px
+    font-size: 2.566rem;
+    line-height: 2.887rem;
+  }
+  h2{
+    // h2-lg: 36.491px / 41.053px
+    font-size: 2.281rem;
+    line-height: 2.566rem;
+  }
+  h3{
+    // h3-lg: 32.437px / 36.491px
+    font-size: 2.027rem;
+    line-height: 2.281rem;
+  }
+  h4{
+    // h4-lg: 28.8337px / 32.437px
+    font-size: 1.802rem;
+    line-height: 2.027rem;
+  }
+  header{
+    margin-bottom: -3rem;
+    .form-box{
+      & form{
+        input[type="email" i]{
+          width: 62%;
+          position: relative;
+          top: .2rem;
+          margin-right: $one-space
+        }
+      }
+    }
+    .header-image{
+      width: 108%;
+      padding-left: $one-space;
+    }
+  }
+  .team-members{
+    & li{
+      margin-bottom: 0;
+    }
+  }
+  footer{
+    padding: $three-spaces 0;
+    & .logo{
+      width: 12rem;
+    }
+  }
+}
+
+// lg - from 1200
+@media only screen and (min-width: 75em) {
+
+}

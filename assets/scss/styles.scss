@@ -22,6 +22,14 @@ $brand: #FF5B29;
 
 $gray-1: #FAFAFA;
 
+$transparent: rgba(0,0,0,0);
+$box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.13);
+
+$transition: .7s ease;
+$transition-quick: .4s ease;
+
+$border-radius: 1rem;
+
 // Space variables
 
 p{
@@ -207,9 +215,15 @@ input, textarea {
   color: $dark;
 }
 
-input[type="email" i]{
-  width: 98.9%;
+header{
+  & .form-box{
+    input[type="email" i]{
+      width: 98.9%;
+    }
+  }
 }
+
+
 
 ::-webkit-input-placeholder{
   color: #9A9AA2;
@@ -267,7 +281,7 @@ header{
   & .message-box{
     margin-top: $four-spaces;
     background: $bright;
-    border-radius: 1rem;
+    border-radius: $border-radius;
     padding: $four-spaces $two-spaces;
     & .logo{
       width: 12rem;
@@ -292,6 +306,9 @@ header{
 .about-the-project{
   & figure{
     margin-bottom: $two-spaces;
+    & img{
+      border-radius: $border-radius;
+    }
   }
 }
 
@@ -319,25 +336,37 @@ header{
 
 .contact-us{
   margin-top: $four-spaces;
+  & a{
+    font-weight: $medium;
+  }
 }
 
 // footer
 
 footer{
   background: $gray-1;
-  padding: $two-spaces 0 $three-spaces 0;
+  padding: $two-spaces 0 $four-spaces 0;
   & .logo{
-    width: 48%;
+    width: 10rem;
     margin: 0 auto $two-spaces auto;
   }
   & nav{
     & a{
       text-decoration: none;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+    & ul{
+      margin-bottom: 0 !important;
     }
     & li{
       font-weight: $semibold;
-      display: block !important;
+      display: block;
       margin-bottom: $one-space;
+      &:last-child{
+        margin-bottom: 0;
+      }
     }
   }
 }

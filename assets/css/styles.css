@@ -132,7 +132,7 @@ input, textarea {
   color: #37374C;
 }
 
-input[type=email i] {
+header .form-box input[type=email i] {
   width: 98.9%;
 }
 
@@ -214,6 +214,9 @@ header .big {
 .about-the-project figure {
   margin-bottom: 2rem;
 }
+.about-the-project figure img {
+  border-radius: 1rem;
+}
 
 .team-members li {
   margin-bottom: 3rem;
@@ -234,22 +237,34 @@ header .big {
 .contact-us {
   margin-top: 4rem;
 }
+.contact-us a {
+  font-weight: 500;
+}
 
 footer {
   background: #FAFAFA;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 4rem 0;
 }
 footer .logo {
-  width: 48%;
+  width: 10rem;
   margin: 0 auto 2rem auto;
 }
 footer nav a {
   text-decoration: none;
 }
+footer nav a:hover {
+  text-decoration: none;
+}
+footer nav ul {
+  margin-bottom: 0 !important;
+}
 footer nav li {
   font-weight: 600;
-  display: block !important;
+  display: block;
   margin-bottom: 1rem;
+}
+footer nav li:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
