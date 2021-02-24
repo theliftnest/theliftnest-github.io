@@ -249,6 +249,19 @@ header{
   }
 }
 
+// Confirmation pages
+
+.confirmation{
+  & .message-box{
+    margin-top: $four-spaces;
+    & .logo{
+      width: 30%;
+      margin: 0 auto;
+      margin-bottom: $two-spaces;
+    }
+  }
+}
+
 // About the project
 
 .about-the-project{

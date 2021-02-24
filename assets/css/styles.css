@@ -180,6 +180,15 @@ header .big {
   margin-bottom: 2rem;
 }
 
+.confirmation .message-box {
+  margin-top: 4rem;
+}
+.confirmation .message-box .logo {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
 .about-the-project figure {
   margin-bottom: 2rem;
 }
