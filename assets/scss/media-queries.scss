@@ -122,14 +122,17 @@ $four-spaces: 4rem;
     font-size: 1.802rem;
     line-height: 2.027rem;
   }
+  h5{
+    // h5-lg: 25.629px / 28.833px
+    font-size: 1.602rem;
+    line-height: 1.802rem;
+  }
   header{
     margin-bottom: -3rem;
     .form-box{
       & form{
         input[type="email" i]{
           width: 62%;
-          position: relative;
-          top: .2rem;
           margin-right: $one-space
         }
       }

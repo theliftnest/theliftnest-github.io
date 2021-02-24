@@ -64,13 +64,16 @@ p {
     line-height: 2.027rem;
   }
 
+  h5 {
+    font-size: 1.602rem;
+    line-height: 1.802rem;
+  }
+
   header {
     margin-bottom: -3rem;
   }
   header .form-box form input[type=email i] {
     width: 62%;
-    position: relative;
-    top: 0.2rem;
     margin-right: 1rem;
   }
   header .header-image {

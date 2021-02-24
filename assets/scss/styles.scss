@@ -184,7 +184,7 @@ $giant-size: 1.602rem;
 .big{
   // p-big-xs: 20.25px / 25.629px
   font-size: 1.266rem;
-  line-height: 1.602rem;
+  line-height: 1.802rem;
   margin-bottom: $one-space;
 }
 
@@ -208,7 +208,7 @@ input, textarea {
   width: 100%;
   border-color: rgba(0, 0, 0, 0);
   border-bottom: 1px solid #979797;
-  padding: $half-space 0;
+  padding: $half-space-and-quarter 0;
   background-color: rgba(0, 0, 0, 0);
   margin-bottom: $one-space-and-a-half;
   font-size: $big-size;
@@ -222,8 +222,6 @@ header{
     }
   }
 }
-
-
 
 ::-webkit-input-placeholder{
   color: #9A9AA2;
