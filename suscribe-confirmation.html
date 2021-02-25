@@ -1,6 +1,9 @@
 ---
 layout: basic-structure-confirmation
 permalink: suscribe-confirmation
+title: Thanks for suscribing
+suscribe-text: You'll get a confirmation email and will be notified as soon as we launch our product for you.
+back-button: back to theLiftNest
 ---
 <!-- section thanks for signing up -->
 <section class="confirmation">
@@ -17,9 +20,9 @@ permalink: suscribe-confirmation
               <img src="{{ "assets/images/the-lift-nest-logo.svg" | relative_url }}" alt="theLiftNest">
             </figure>
           </a>
-          <h1>Thanks for suscribing</h1>
-          <p class="big">You'll get a suscription confirmation email and we will notify you when we launch our website.</p>
-          <a class="button big" href="/">Back to the liftnest</a>
+          <h1>{{ page.title }}</h1>
+          <p class="big">{{ page.suscribe-text }}</p>
+          <a class="button big" href="/">{{ page.back-button }}</a>
         </div>
         <!-- message box end -->
       </div>
