@@ -294,8 +294,8 @@ input:placeholder-shown {
 }
 
 .shrink-nav{
-  padding: $half-space;
-  box-shadow: $box-shadow;
+  padding: $one-space;
+  // box-shadow: $box-shadow;
   background-color: #fff;
   & .logo-background{
     width: 12rem;
