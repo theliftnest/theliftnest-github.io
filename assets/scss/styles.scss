@@ -376,9 +376,9 @@ input:placeholder-shown {
     }
   }
   & .off-canvas-box{
-    margin-top: $four-spaces;
+    margin-top: $three-spaces;
     & ul{
-      margin-top: $four-spaces;
+      margin-left: -.5rem;
     }
     & li{
       margin-bottom: $one-space;

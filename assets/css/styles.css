@@ -284,10 +284,10 @@ input:placeholder-shown {
   display: none;
 }
 .uk-offcanvas-bar .off-canvas-box {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .uk-offcanvas-bar .off-canvas-box ul {
-  margin-top: 4rem;
+  margin-left: -0.5rem;
 }
 .uk-offcanvas-bar .off-canvas-box li {
   margin-bottom: 1rem;

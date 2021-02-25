@@ -78,12 +78,29 @@ p {
     line-height: 1.602rem;
   }
 
+  header {
+    margin-bottom: 0;
+  }
   header .form-box form input[type=email i] {
     margin-right: 1rem;
   }
   header .header-image {
     width: 108%;
     padding-left: 1rem;
+  }
+
+  .about-the-project {
+    margin-top: -7rem;
+  }
+  .about-the-project h3 {
+    margin-top: 7rem;
+  }
+
+  .about-us {
+    margin-top: -7rem;
+  }
+  .about-us h3 {
+    margin-top: 7rem;
   }
 
   .team-members li {

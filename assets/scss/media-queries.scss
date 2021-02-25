@@ -137,6 +137,7 @@ $four-spaces: 4rem;
     line-height: 1.602rem;
   }
   header{
+    margin-bottom: 0;
     .form-box{
       & form{
         input[type="email" i]{
@@ -147,6 +148,18 @@ $four-spaces: 4rem;
     .header-image{
       width: 108%;
       padding-left: $one-space;
+    }
+  }
+  .about-the-project{
+    margin-top: -7rem;
+    & h3{
+      margin-top: 7rem;
+    }
+  }
+  .about-us{
+    margin-top: -7rem;
+    & h3{
+      margin-top: 7rem;
     }
   }
   .team-members{
