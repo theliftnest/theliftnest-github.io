@@ -172,6 +172,13 @@ h5{
   margin-bottom: $one-space;
 }
 
+h6{
+  // h5-xs: 18px / 20.25px
+  font-size: 1.125rem;
+  line-height: 1.266rem;
+  margin-bottom: $one-space;
+}
+
 .giant{
   // p-giant-lg: 25.629px / 32.437px
   font-size: 1.602rem;
@@ -280,7 +287,7 @@ input:placeholder-shown {
   }
   & li{
     font-weight: $semibold;
-    margin-right: $one-space-and-a-half;
+    margin-right: $one-space;
     &:last-child{
       margin-right: 0;
     }
@@ -387,8 +394,14 @@ header{
 
 .page-docs{
   margin-top: $two-spaces;
+  & h6{
+    margin-top: $two-spaces;
+  }
   & p{
-    margin-bottom: $one-space-and-a-half;
+    margin-bottom: $one-space;
+  }
+  & a{
+    font-weight: $semibold;
   }
 }
 

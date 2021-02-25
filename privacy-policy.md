@@ -1,7 +1,7 @@
 ---
 layout: page-docs-one-col
 title: Privacy Policy
-permalink: privacy-policy
+permalink: datenschutz
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla est ullamcorper eget nulla facilisi. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Elementum nibh tellus molestie nunc. Dolor purus non enim praesent elementum. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Enim facilisis gravida neque convallis. Pretium viverra suspendisse potenti nullam. Dictum sit amet justo donec. Bibendum est ultricies integer quis auctor elit sed. Penatibus et magnis dis parturient montes. Justo laoreet sit amet cursus sit amet dictum sit amet. Sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida.
 

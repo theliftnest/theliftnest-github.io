@@ -87,7 +87,7 @@ $four-spaces: 4rem;
       top: .33rem;
     }
     & li{
-      margin-right: $one-space-and-a-half;
+      margin-right: $one-space;
       display: inline-block !important;
       &:last-child{
         margin-right: 0;
@@ -130,6 +130,11 @@ $four-spaces: 4rem;
     // h5-lg: 25.629px / 28.833px
     font-size: 1.602rem;
     line-height: 1.802rem;
+  }
+  h6{
+    // h5-lg: 22.781px / 25.629px
+    font-size: 1.424rem;
+    line-height: 1.602rem;
   }
   header{
     // margin-bottom: -1rem;

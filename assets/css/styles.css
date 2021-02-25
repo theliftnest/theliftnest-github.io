@@ -101,6 +101,12 @@ h5 {
   margin-bottom: 1rem;
 }
 
+h6 {
+  font-size: 1.125rem;
+  line-height: 1.266rem;
+  margin-bottom: 1rem;
+}
+
 .giant {
   font-size: 1.602rem;
   line-height: 2.027rem;
@@ -195,7 +201,7 @@ input:placeholder-shown {
 }
 .main-nav li {
   font-weight: 600;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 .main-nav li:last-child {
   margin-right: 0;
@@ -283,8 +289,14 @@ header .big {
 .page-docs {
   margin-top: 2rem;
 }
+.page-docs h6 {
+  margin-top: 2rem;
+}
 .page-docs p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+.page-docs a {
+  font-weight: 600;
 }
 
 .contact-us {
