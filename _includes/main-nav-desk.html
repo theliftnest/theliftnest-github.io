@@ -11,8 +11,9 @@
       <!-- col -->
       <div class="col-sm-9">
         <ul class="inline big">
-          <li><a href="#about-the-project-id" uk-scroll data-offset="100">Die Bettrevolution</a></li>
-          <li><a href="#about-us-id" uk-scroll data-offset="100">Über uns</a></li>
+          <!-- <li><a href="#about-the-project-id" uk-scroll data-offset="100">Die Bettrevolution</a></li> -->
+          <li><a {% if page.url != "/" %} href="{{ "/#about-the-project-id" }}" {% else %} href="#about-the-project-id" uk-scroll data-offset="100" {% endif %}>Die Bettrevolution</a></li>
+          <li><a {% if page.url != "/" %} href="{{ "/#about-us-id" }}" {% else %} href="#about-us-id" uk-scroll data-offset="100" {% endif %}>Über uns</a></li>
           <li><a href="mailto:{{ site.contact-email }}" target="_blank">E-mail</a></li>
         </ul>
       </div>
