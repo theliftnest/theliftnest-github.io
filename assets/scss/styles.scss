@@ -204,6 +204,13 @@ p, .mid{
 }
 
 $mid-size: 1.125rem;
+$mid-line-height: 1.802rem;
+
+
+ol, ul{
+  font-size: $mid-size;
+  line-height: $mid-line-height;
+}
 
 // Form
 

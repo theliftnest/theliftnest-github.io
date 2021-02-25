@@ -124,6 +124,11 @@ p, .mid {
   line-height: 1.802rem;
 }
 
+ol, ul {
+  font-size: 1.125rem;
+  line-height: 1.802rem;
+}
+
 :focus {
   outline: 0;
 }
