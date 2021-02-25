@@ -9,7 +9,7 @@ vertreten-durch-text: Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR <p>F
 kontakt-heading: Kontakt
 kontakt-text: Telefon&#58; <a href="tel:+4917669670465">+49 176 6967 0465</a><p>E-mail&#58; <a href="mailto:kontakt@theliftnest.com" target="_blank">kontakt@theliftnest.com </a></p>
 technische-und-graphische-umsetzung-heading: Technische und graphische Umsetzung
-technische-und-graphische-umsetzung-text: Alejandro Narváez Isaza / <a href="https://fluorescente.design/" target="_blank">fluorescente.design</a>
+technische-und-graphische-umsetzung-text: Alejandro Narváez Isaza <p><a href="https://fluorescente.design/" target="_blank">fluorescente.design</a></p>
 datenschutz-heading: Datenschutz
 datenschutz-text: Für Ihre Kontaktaufnahme über unsere angegebenen Kontaktdaten (E-Mail, Postadresse) gilt hinsichtlich des Datenschutzes, der Verarbeitung, Speicherung und ggf. Widerspruch unsere Datenschutzerklärung unter <a href="/datenschutz">theliftnest/datenschutz</a>
 haftung-fur-die-Inhalte-heading: Haftung für die Inhalte

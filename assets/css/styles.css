@@ -292,7 +292,13 @@ header .big {
 }
 
 .page-docs {
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+.page-docs h1 {
+  margin-bottom: 0;
+}
+.page-docs .header-space {
+  margin-bottom: 2rem;
 }
 .page-docs h6 {
   margin-top: 2rem;

@@ -400,7 +400,13 @@ header{
 // Page docs
 
 .page-docs{
-  margin-top: $two-spaces;
+  margin-top: $one-space;
+  & h1{
+    margin-bottom: 0;
+  }
+  & .header-space{
+    margin-bottom: $two-spaces;
+  }
   & h6{
     margin-top: $two-spaces;
   }
