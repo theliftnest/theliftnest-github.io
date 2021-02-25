@@ -137,11 +137,9 @@ $four-spaces: 4rem;
     line-height: 1.602rem;
   }
   header{
-    // margin-bottom: -1rem;
     .form-box{
       & form{
         input[type="email" i]{
-          // width: 30%;
           margin-right: $one-space
         }
       }

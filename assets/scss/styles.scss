@@ -91,7 +91,7 @@ ul{
 }
 
 section{
-  margin-bottom: 3rem;
+  margin-bottom: $two-spaces;
 }
 
 // Font-face
@@ -225,10 +225,10 @@ ol, ul{
 
 input, textarea {
   width: 100%;
-  border-color: rgba(0, 0, 0, 0);
+  border-color: $transparent;
   border-bottom: 1px solid #979797;
   padding: $half-space-and-quarter 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: $transparent;
   margin-bottom: $one-space-and-a-half;
   font-size: $big-size;
   color: $dark;
@@ -344,6 +344,48 @@ input:placeholder-shown {
   }
 }
 
+// Offcanvas-nav
+
+.uk-offcanvas-bar{
+  background-color: $dark;
+  color: $bright;
+  & a{
+    text-decoration: none;
+    font-weight: $semibold;
+    &:hover{
+      color: $brand;
+    }
+  }
+  .close-box{
+    margin-top: $half-space;
+    & a{
+      font-size: 1.66rem;
+    }
+  }
+  .uk-offcanvas-close{
+    position: inherit;
+    padding: 0;
+    color: $bright;
+    &:hover{
+      color: $brand;
+    }
+  }
+  .uk-icon{
+    & svg{
+      display: none;
+    }
+  }
+  & .off-canvas-box{
+    margin-top: $four-spaces;
+    & ul{
+      margin-top: $four-spaces;
+    }
+    & li{
+      margin-bottom: $one-space;
+    }
+  }
+}
+
 // Header
 
 header{
@@ -385,6 +427,10 @@ header{
 // About the project
 
 .about-the-project{
+  margin-top: -1rem;
+  & h3{
+    margin-top: 2rem;
+  }
   & figure{
     margin-bottom: $two-spaces;
     & img{
@@ -399,6 +445,13 @@ header{
 }
 
 // About us
+
+.about-us{
+  margin-top: -1rem;
+  & h3{
+    margin-top: 2rem;
+  }
+}
 
 .team-members{
   & li{

@@ -30,7 +30,7 @@ ul li {
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 @font-face {
@@ -255,6 +255,44 @@ input:placeholder-shown {
   font-size: 1.5rem;
 }
 
+.uk-offcanvas-bar {
+  background-color: #37374C;
+  color: #fff;
+}
+.uk-offcanvas-bar a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.uk-offcanvas-bar a:hover {
+  color: #FF5B29;
+}
+.uk-offcanvas-bar .close-box {
+  margin-top: 0.5rem;
+}
+.uk-offcanvas-bar .close-box a {
+  font-size: 1.66rem;
+}
+.uk-offcanvas-bar .uk-offcanvas-close {
+  position: inherit;
+  padding: 0;
+  color: #fff;
+}
+.uk-offcanvas-bar .uk-offcanvas-close:hover {
+  color: #FF5B29;
+}
+.uk-offcanvas-bar .uk-icon svg {
+  display: none;
+}
+.uk-offcanvas-bar .off-canvas-box {
+  margin-top: 4rem;
+}
+.uk-offcanvas-bar .off-canvas-box ul {
+  margin-top: 4rem;
+}
+.uk-offcanvas-bar .off-canvas-box li {
+  margin-bottom: 1rem;
+}
+
 header {
   margin: 1rem 0 3rem 0;
 }
@@ -287,6 +325,12 @@ header .big {
   background-color: #FAFAFA;
 }
 
+.about-the-project {
+  margin-top: -1rem;
+}
+.about-the-project h3 {
+  margin-top: 2rem;
+}
 .about-the-project figure {
   margin-bottom: 2rem;
 }
@@ -295,6 +339,13 @@ header .big {
 }
 .about-the-project .text-box p {
   margin-bottom: 1rem;
+}
+
+.about-us {
+  margin-top: -1rem;
+}
+.about-us h3 {
+  margin-top: 2rem;
 }
 
 .team-members li {

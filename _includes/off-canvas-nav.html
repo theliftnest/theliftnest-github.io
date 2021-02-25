@@ -1,11 +1,34 @@
 <div id="offcanvas-usage" uk-offcanvas="flip: true; mode: push">
-    <div class="uk-offcanvas-bar">
+  <div class="uk-offcanvas-bar">
+    <!-- wrapper -->
+    <div class="wrapper container-fluid">
+      <!-- row -->
+      <div class="row close-box">
+        <a href="#"><span class="uk-offcanvas-close icon icon-close" uk-close></span></a>
+      </div>
+      <!-- row-end -->
+      <!-- row -->
+      <div class="row off-canvas-box">
+        <!-- col -->
+        <div class="col-xs-12">
+          <ul class="big">
+            <li><a href="/">Home</a></li>
 
-        <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <li><a {% if page.url == "/" %} class="uk-offcanvas-close" href="/#about-the-project-id" uk-scroll uk-close {% else %} href="/#about-the-project-id" {% endif %}>Die Bettrevolution</a></li>
 
-        <h3>Title</h3>
+            <li><a {% if page.url == "/" %} class="uk-offcanvas-close" href="/#about-us-id" uk-scroll uk-close {% else %} href="/#about-us-id" {% endif %}>Über uns</a></li>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <li><a href="/impressum">Impressum</a></li>
 
+            <li><a href="/datenschutz">Datenschutz</a></li>
+
+            <li><a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer">E-mail</a></li>
+          </ul>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
     </div>
+    <!-- wrapper end -->
+  </div>
 </div>
