@@ -11,7 +11,7 @@ kontakt-text: Telefon&#58; <a href="tel:+4917669670465">+49 176 6967 0465</a><p>
 technische-und-graphische-umsetzung-heading: Technische und graphische Umsetzung
 technische-und-graphische-umsetzung-text: Alejandro Narváez Isaza <p><a href="https://fluorescente.design/" target="_blank">fluorescente.design</a></p>
 datenschutz-heading: Datenschutz
-datenschutz-text: Für Ihre Kontaktaufnahme über unsere angegebenen Kontaktdaten (E-Mail, Postadresse) gilt hinsichtlich des Datenschutzes, der Verarbeitung, Speicherung und ggf. Widerspruch unsere Datenschutzerklärung unter <a href="/datenschutz">theliftnest/datenschutz</a>
+datenschutz-text: Für Ihre Kontaktaufnahme über unsere angegebenen Kontaktdaten (E-Mail, Postadresse) gilt hinsichtlich des Datenschutzes, der Verarbeitung, Speicherung und ggf. Widerspruch unsere Datenschutzerklärung unter <a href="/datenschutz">theliftnest.com/datenschutz</a>
 haftung-fur-die-Inhalte-heading: Haftung für die Inhalte
 haftung-fur-die-Inhalte-text: alle Informationen und Erklärungen dieser Internetseiten sind ohne Gewähr auf Vollständigkeit und Richtigkeit.
 haftung-fur-Links-heading: Haftung für Links
