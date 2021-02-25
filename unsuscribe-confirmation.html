@@ -1,6 +1,9 @@
 ---
 layout: basic-structure-confirmation
 permalink: unsuscribe-confirmation
+title: Sie sind nicht mehr abonniert
+unsuscribe-text: Abonnieren Sie jederzeit wieder.
+back-button: zurück zum LiftNest
 ---
 <!-- section thanks for signing up -->
 <section class="confirmation">
@@ -17,9 +20,9 @@ permalink: unsuscribe-confirmation
               <img src="{{ "assets/images/the-lift-nest-logo.svg" | relative_url }}" alt="theLiftNest">
             </figure>
           </a>
-          <h1>You are no longer suscribed</h1>
-          <p class="big">Suscribe again anytime you want.</p>
-          <a class="button big" href="/">Back to the liftnest</a>
+          <h1>{{ page.title }}</h1>
+          <p class="big">{{ page.unsuscribe-text }}</p>
+          <a class="button big" href="/">{{ page.back-button }}</a>
         </div>
         <!-- message box end -->
       </div>

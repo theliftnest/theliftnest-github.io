@@ -286,9 +286,6 @@ input:placeholder-shown {
 
 .main-nav{
   padding: $three-spaces 0 $two-spaces 0;
-  // & .logo{
-  //   width: 14rem;
-  // }
   & .logo-background{
     width: 14rem;
     height: 4rem;
@@ -328,10 +325,29 @@ input:placeholder-shown {
   }
 }
 
+// main nav mobile
+
+.main-nav-mobile{
+  padding: $one-space 0;
+  background-color: $bright;
+  & .logo-background{
+    width: 10rem;
+    height: 3rem;
+    background-image: url(../images/the-lift-nest-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  & .hamburguer-toggle{
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+}
+
 // Header
 
 header{
-  margin: 0 0 $three-spaces 0;
+  margin: $one-space 0 $three-spaces 0;
   & .header-image{
     margin: 0 0 $two-spaces 0;
   }
