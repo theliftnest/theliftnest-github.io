@@ -111,6 +111,7 @@ body{
   background-color: $bright;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .full-height-width{
@@ -262,10 +263,56 @@ input:placeholder-shown {
   }
 }
 
+// Main nav desk
+
+.main-nav{
+  padding: $three-spaces 0 $two-spaces 0;
+  // & .logo{
+  //   width: 14rem;
+  // }
+  & .logo-background{
+    width: 14rem;
+    height: 4rem;
+    background-image: url(../images/the-lift-nest-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  & li{
+    font-weight: $semibold;
+    margin-right: $one-space-and-a-half;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  & a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.shrink-nav{
+  padding: $half-space;
+  box-shadow: $box-shadow;
+  background-color: #fff;
+  & .logo-background{
+    width: 12rem;
+    height: 3rem;
+    background-image: url(../images/the-lift-nest-logo.svg);
+    position: relative;
+    top: .2rem;
+  }
+  & ul{
+    margin-bottom: 0;
+  }
+}
+
 // Header
 
 header{
-  margin: $three-spaces 0;
+  margin: 0 0 $three-spaces 0;
   & .header-image{
     margin: 0 0 $two-spaces 0;
   }
@@ -331,6 +378,15 @@ header{
   }
 }
 
+// Page docs
+
+.page-docs{
+  margin-top: $two-spaces;
+  & p{
+    margin-bottom: $one-space-and-a-half;
+  }
+}
+
 // contact us
 
 .contact-us{
@@ -344,7 +400,7 @@ header{
 
 footer{
   background: $gray-1;
-  padding: $two-spaces 0 $four-spaces 0;
+  padding: $two-spaces 0 $three-spaces 0;
   & .logo{
     width: 10rem;
     margin: 0 auto $two-spaces auto;

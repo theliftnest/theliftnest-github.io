@@ -1,9 +1,10 @@
 ---
 layout: basic-structure
 ---
+{% include main-nav-desk.html %}
 {% include home-header.html %}
 <!-- section about the project -->
-<section class="about-the-project">
+<section class="about-the-project" id="about-the-project-id">
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
@@ -34,7 +35,7 @@ layout: basic-structure
 </section>
 <!-- section about the project end -->
 <!-- section about us -->
-<section class="about-us">
+<section class="about-us" id="about-us-id">
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
@@ -51,7 +52,7 @@ layout: basic-structure
       <!-- col -->
       {% for team-member in site.team-members %}
         {% if team-member.tags contains 'member' %}
-        <li class="col-xs-12 col-lg-6">
+        <li class="col-xs-12 col-sm-6">
           <!-- row -->
           <div class="row">
             <!-- col -->
@@ -88,7 +89,7 @@ layout: basic-structure
     <div class="row center-xs">
       <!-- col -->
       <div class="col-xs-12">
-        <p class="giant">{{ page.contact-text }} <a href="mailto:{{ page.contact-email }}">{{ page.contact-email }}</a></p>
+        <p class="giant">{{ page.contact-text }} <a href="mailto:{{ page.contact-email }}" target="_blank">{{ page.contact-email }}</a></p>
       </div>
       <!-- col end -->
     </div>

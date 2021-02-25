@@ -1,0 +1,29 @@
+<nav class="hidden-xs hidden-sm visible-lg main-nav" id="desk-nav">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row middle-sm end-sm">
+      <!-- col -->
+      <div class="col-sm-3 start-sm">
+        <a {% if page.url == "/" %} href="#header-id" uk-scroll {% else %} href="/" {% endif %} class="logo-background"></a>
+        <!-- <a href="/" class="logo-background"> -->
+          <!-- <figure class="logo">
+            <img src="{{ "assets/images/the-lift-nest-logo.svg" | relative_url }}" alt="theLiftNest" alt="the liftnest">
+          </figure> -->
+        </a>
+      </div>
+      <!-- col end -->
+      <!-- col -->
+      <div class="col-sm-9">
+        <ul class="inline big">
+          <li><a href="#about-the-project-id" uk-scroll data-offset="100">About the project</a></li>
+          <li><a href="#about-us-id" uk-scroll data-offset="100">About us</a></li>
+          <li><a href="mailto:{{ page.contact-email }}" target="_blank">Email</a></li>
+        </ul>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</nav>

@@ -5,9 +5,9 @@
     <div class="row middle-sm">
       <!-- col -->
       <div class="col-xs-12 col-sm-2">
-        <a href="/">
+        <a {% if page.url != "/" %} href="/" {% endif %}>
           <figure class="logo">
-            <img src="{{ "assets/images/the-lift-nest-logo.svg" | relative_url }}" alt="theLiftNest">
+            <img src="{{ "assets/images/the-lift-nest-logo.svg" | relative_url }}" alt="theLiftNest" alt="the liftnest">
           </figure>
         </a>
       </div>
@@ -18,10 +18,10 @@
         <nav>
           <ul class="big">
             <li>
-              <a href="#">Impressum</a>
+              <a href="/impressum">Impressum</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="/privacy-policy">Privacy Policy</a>
             </li>
             <li>
               <a href="#">Email</a>
