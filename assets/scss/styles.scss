@@ -401,10 +401,10 @@ header{
 
 .page-docs{
   margin-top: $one-space;
-  & h1{
+  & .impressum-heading-one{
     margin-bottom: 0;
   }
-  & .header-space{
+  & h1{
     margin-bottom: $two-spaces;
   }
   & h6{

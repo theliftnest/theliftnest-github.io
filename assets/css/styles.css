@@ -294,10 +294,10 @@ header .big {
 .page-docs {
   margin-top: 1rem;
 }
-.page-docs h1 {
+.page-docs .impressum-heading-one {
   margin-bottom: 0;
 }
-.page-docs .header-space {
+.page-docs h1 {
   margin-bottom: 2rem;
 }
 .page-docs h6 {
