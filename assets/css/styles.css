@@ -124,6 +124,11 @@ p, .mid {
   line-height: 1.802rem;
 }
 
+.small {
+  font-size: 1rem;
+  line-height: 1.602rem;
+}
+
 ol, ul {
   font-size: 1.125rem;
   line-height: 1.802rem;

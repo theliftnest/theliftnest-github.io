@@ -206,6 +206,11 @@ p, .mid{
 $mid-size: 1.125rem;
 $mid-line-height: 1.802rem;
 
+.small{
+  // p-xs: 16px / 25.629px
+  font-size: 1rem;
+  line-height: 1.602rem;
+}
 
 ol, ul{
   font-size: $mid-size;
