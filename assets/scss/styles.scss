@@ -191,12 +191,12 @@ $giant-size: 1.602rem;
 $big-size: 1.266rem;
 
 p, .mid{
-  // p-xs: 16px / 28.833px
-  font-size: 1rem;
+  // p-xs: 18px / 28.833px
+  font-size: 1.125rem;
   line-height: 1.802rem;
 }
 
-$mid-size: 1rem;
+$mid-size: 1.125rem;
 
 // Form
 
@@ -356,6 +356,11 @@ header{
       border-radius: $border-radius;
     }
   }
+  & .text-box{
+    & p{
+      margin-bottom: $one-space;
+    }
+  }
 }
 
 // About us
@@ -367,10 +372,10 @@ header{
       margin-bottom: 0;
     }
     & figure{
-      margin-bottom: $one-space;
+      margin-bottom: $two-spaces;
     }
     & h4{
-      margin-bottom: $quarter-space;
+      margin-bottom: $one-space;
     }
     & .big{
       margin-bottom: $one-space-and-a-half;

@@ -114,7 +114,7 @@ h5 {
 }
 
 p, .mid {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.802rem;
 }
 
@@ -260,6 +260,9 @@ header .big {
 .about-the-project figure img {
   border-radius: 1rem;
 }
+.about-the-project .text-box p {
+  margin-bottom: 1rem;
+}
 
 .team-members li {
   margin-bottom: 3rem;
@@ -268,10 +271,10 @@ header .big {
   margin-bottom: 0;
 }
 .team-members li figure {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .team-members li h4 {
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 .team-members li .big {
   margin-bottom: 1.5rem;

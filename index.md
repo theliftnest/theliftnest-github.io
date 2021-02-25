@@ -7,13 +7,13 @@ title: theliftnest
 date: 2021-02-22 09:45:12 -0500
 permalink: /
 published: true
-header-heading: Thanks for visiting us. <span class="break"></span>We are launching our website very soon
-header-text: Get notified when we launch
+header-heading: theLiftNest <span class="break"></span>mehr nutzbarer Wohnraum per Knopfdruck
+header-text: Erfahre mehr, sobald der Marktstart Mitte des Jahres anläuft.
+placeholder: Deine E-Mail
 header-image: /assets/images/the-liftnest-bed.jpg
-about-the-project-heading: About the project
+about-the-project-heading: Die Bettrevolution
 about-the-project-image: /assets/images/the-liftnest-blueprint.jpg
-about-the-project-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Tristique risus nec feugiat in fermentum posuere. Commodo elit at imperdiet dui accumsan. Gravida cum sociis natoque penatibus et magnis dis. Pulvinar neque laoreet suspendisse interdum consectetur libero. Mauris augue neque gravida in. Cras semper auctor neque vitae tempus quam pellentesque nec.
-about-us-heading: About us
-contact-text: contact us at
-contact-email: info@theliftnest.com
+about-the-project-text: Sie wünschen sich endlich ein zusätzliches Zimmer für Ihr Kind, Ihre Gäste, Ihre Tätigkeit im Homeoffice bzw. einen Sportraum? Sie brauchen also mehr nutzbare Wohnfläche in der bestehenden Wohnung - für mehr Wohn- und Lebensqualität?<p>Dann nutzen Sie schon bald theLiftNest, welches per Knopfdruck diskret unter der Zimmerdecke verschwindet. Einfach online bestellen, liefern lassen und sogar im Selbstaufbau überall bequem errichten.</p><p>Bald mehr an dieser Stelle!</p>
+about-us-heading: Über uns
+contact-text: Wir freuen uns von dir zu lesen&#58;
 ---

@@ -73,11 +73,7 @@ p {
     line-height: 1.802rem;
   }
 
-  header {
-    margin-bottom: -3rem;
-  }
   header .form-box form input[type=email i] {
-    width: 62%;
     margin-right: 1rem;
   }
   header .header-image {
