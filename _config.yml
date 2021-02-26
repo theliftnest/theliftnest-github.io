@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: the liftnest
+title: the LiftNest
 email: kontakt@theliftnest.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mehr nutzbarer Wohnraum per Knopfdruck
@@ -30,6 +30,7 @@ github_username: theliftnest
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 collections:
   team-members:

@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: theliftnest
 date: 2021-02-22 09:45:12 -0500
 permalink: /
 published: true
