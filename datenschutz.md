@@ -7,7 +7,10 @@ permalink: datenschutz
 <strong>Name und Kontaktdaten des / der Verantwortlichen</strong><br />
 Unser/e Verantwortliche/r (nachfolgend „Verantwortlicher“) i.S.d. Art. 4 Zif. 7 DS-GVO ist:<br />
 <br />
-Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR<br />Franklinstr. 25<br />01069, Dresden, Deutschland<br />E-Mail-Adresse: kontakt@theliftnest.com<br /><br />
+<!-- Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR<br />Franklinstr. 25<br />01069, Dresden, Deutschland<br />E-Mail-Adresse: kontakt@theliftnest.com<br /><br /> -->
+<p>
+  <img url="theliftnest.github.io/assets/images/datenschutz-vertreten-durch-image.svg">
+</p>
 <strong>Datenarten, Zwecke der Verarbeitung und Kategorien betroffener Personen</strong><br />
 <p>Nachfolgend informieren wir Sie über Art, Umfang und Zweck der Erhebung, Verarbeitung und Nutzung personenbezogener Daten.</p>
 <strong>1. Arten der Daten, die wir verarbeiten</strong><br />

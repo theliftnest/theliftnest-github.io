@@ -5,7 +5,8 @@ permalink: impressum
 betreiber-der-webseite-heading: Betreiber der Webseite
 betreiber-der-webseite-text: Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR
 vertreten-durch-heading: Vertreten durch / Verantwortlich im Sinne des Presserechtes für den Inhalt der Publikationen ist
-vertreten-durch-text: Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR <p class="small">Franklinstr. 25</p><p class="small">01069 Dresden</p><p class="small">Deutschland</p>
+vertreten-durch-text: Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR<br>Franklinstr. 25</br>01069 Dresden<br>Deutschland</p>
+vertreten-durch-image: /assets/images/vertreten-durch-image.svg
 kontakt-heading: Kontakt
 kontakt-text: Telefon&#58; <a href="tel:+4917669670465">+49 176 6967 0465</a><p class="small">E-mail&#58; <a href="mailto:kontakt@theliftnest.com" target="_blank">kontakt@theliftnest.com </a></p>
 technische-und-graphische-umsetzung-heading: Technische und graphische Umsetzung
