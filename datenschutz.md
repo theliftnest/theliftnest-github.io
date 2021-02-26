@@ -9,8 +9,9 @@ Unser/e Verantwortliche/r (nachfolgend „Verantwortlicher“) i.S.d. Art. 4 Zif
 <br />
 <!-- Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR<br />Franklinstr. 25<br />01069, Dresden, Deutschland<br />E-Mail-Adresse: kontakt@theliftnest.com<br /><br /> -->
 <p>
-  <img url="theliftnest.github.io/assets/images/datenschutz-vertreten-durch-image.svg">
+  <img src="assets/images/datenschutz-vertreten-durch-image.svg">
 </p>
+<br />
 <strong>Datenarten, Zwecke der Verarbeitung und Kategorien betroffener Personen</strong><br />
 <p>Nachfolgend informieren wir Sie über Art, Umfang und Zweck der Erhebung, Verarbeitung und Nutzung personenbezogener Daten.</p>
 <strong>1. Arten der Daten, die wir verarbeiten</strong><br />
@@ -83,8 +84,12 @@ Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten von I
 Soweit die Verarbeitung auf Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a), Art. 7 DS-GVO beruht, haben Sie das Recht, die Einwilligung jederzeit zu widerrufen. Die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung wird dadurch nicht berührt.<br /><br />
 Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die Interessenabwägung gemäß Art. 6 Abs. 1 S. 1 lit. f) DS-GVO stützen, können Sie Widerspruch gegen die Verarbeitung einlegen. Dies ist der Fall, wenn die Verarbeitung insbesondere nicht zur Erfüllung eines Vertrags mit Ihnen erforderlich ist, was von uns jeweils bei der nachfolgenden Beschreibung der Funktionen dargestellt wird. Bei Ausübung eines solchen Widerspruchs bitten wir um Darlegung der Gründe, weshalb wir Ihre personenbezogenen Daten nicht wie von uns durchgeführt verarbeiten sollten. Im Falle Ihres begründeten Widerspruchs prüfen wir die Sachlage und werden entweder die Datenverarbeitung einstellen bzw. anpassen oder Ihnen unsere zwingenden schutzwürdigen Gründe aufzeigen, aufgrund derer wir die Verarbeitung fortführen.<br /><br />
 Sie können der Verarbeitung Ihrer personenbezogenen Daten für Zwecke der Werbung und Datenanalyse jederzeit widersprechen. Das Widerspruchsrecht können Sie kostenfrei ausüben. Über Ihren Werbewiderspruch können Sie uns unter folgenden Kontaktdaten informieren:<br /><br />
-Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR<br />Franklinstr. 25<br />01069, Dresden, Deutschland<br />E-Mail-Adresse: kontakt@theliftnest.com<br /></strong>
-<br /></li>
+<p>
+  <img src="assets/images/datenschutz-vertreten-durch-image-bold.svg">
+</p>
+<br />
+<!-- Marcus Aschenbrenner & Aljaz Primozic theLiftNest GbR<br />Franklinstr. 25<br />01069, Dresden, Deutschland<br />E-Mail-Adresse: kontakt@theliftnest.com<br /></strong>
+<br /></li> -->
 <li><strong>Recht auf Auskunft</strong><br />
 Sie haben ein Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten nach Art. 15 DS-GVO. Dies beinhaltet insbesondere die Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, die Herkunft ihrer Daten, sofern diese nicht direkt bei Ihnen erhoben wurden.<br /><br /></li>
 <li><strong>Recht auf Berichtigung</strong><br />
