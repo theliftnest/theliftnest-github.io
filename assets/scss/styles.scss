@@ -78,6 +78,14 @@ ul{
   }
 }
 
+.bullet-list{
+  margin-left: $one-space;
+  & li{
+    list-style-type: disc;
+    margin-bottom: $half-space;
+  }
+}
+
 .inline{
   display: inline-block;
   & li{
@@ -441,6 +449,13 @@ header{
     & p{
       margin-bottom: $one-space;
     }
+  }
+  .second-header{
+    margin-top: $one-space !important;
+    margin-bottom: $two-spaces;
+  }
+  .bullet-list-container{
+    margin-bottom: $three-spaces;
   }
 }
 

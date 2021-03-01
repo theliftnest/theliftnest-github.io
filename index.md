@@ -15,6 +15,18 @@ about-the-project-text: |-
   <p>Dann nutzen Sie schon bald theLiftNest, welches per Knopfdruck diskret unter der Zimmerdecke verschwindet. Einfach online bestellen, liefern lassen und sogar im Selbstaufbau überall bequem errichten.</p>
 
   <p>Bald mehr an dieser Stelle!</p>
+value-points-heading: Auf den Punkt – was macht theLiftNest so wertvoll  
+value-points-text-column-one: <li>Das Bett verschwindet tagsüber dezent</li>
+  <li>Mehrfach nutzbarer Wohnraum</li>
+  <li>Standort des Bettes&#58 überall möglich</li>
+  <li>Tragende (senkrechte) Wand ist überflüssig</li>
+  <li>Überallhin lieferbar</li>
+  <li>Selbstbau einfach möglich</li>
+value-points-text-column-two: <li>Sicher und langlebig</li>
+  <li>Top Design</li>
+  <li>Reduziert Wohnnebenkosten</li>
+  <li>Vermeidet Umzüge</li>
+  <li>Ermöglicht Kauf/Anmietung kleiner Wohnungen</li>
 about-us-heading: Über uns
 contact-text: Wir freuen uns von dir zu lesen&#58;
 

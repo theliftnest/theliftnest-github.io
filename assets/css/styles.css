@@ -17,6 +17,14 @@ ul li {
   list-style-type: none;
 }
 
+.bullet-list {
+  margin-left: 1rem;
+}
+.bullet-list li {
+  list-style-type: disc;
+  margin-bottom: 0.5rem;
+}
+
 .inline {
   display: inline-block;
 }
@@ -339,6 +347,13 @@ header .big {
 }
 .about-the-project .text-box p {
   margin-bottom: 1rem;
+}
+.about-the-project .second-header {
+  margin-top: 1rem !important;
+  margin-bottom: 2rem;
+}
+.about-the-project .bullet-list-container {
+  margin-bottom: 3rem;
 }
 
 .about-us {
