@@ -10,12 +10,12 @@ header-image: "/assets/images/the-liftnest-bed.jpg"
 about-the-project-heading: Die Bettrevolution
 about-the-project-image: "/assets/images/the-liftnest-blueprint.jpg"
 about-the-project-text: |-
-  Sie wünschen sich endlich ein zusätzliches Zimmer für Ihr Kind, Ihre Gäste, Ihre Tätigkeit im Homeoffice bzw. einen Sportraum? Sie brauchen also mehr nutzbare Wohnfläche in der bestehenden Wohnung - für mehr Wohn- und Lebensqualität?
+  Du wünschst dir endlich ein zusätzliches Zimmer für dein Kind, deine Gäste, deine Tätigkeit im Homeoffice bzw. einen Sportraum? Du brauchst also mehr nutzbare Wohnfläche in der bestehenden Wohnung - für mehr Wohn- und Lebensqualität?
 
-  <p>Dann nutzen Sie schon bald theLiftNest, welches per Knopfdruck diskret unter der Zimmerdecke verschwindet. Einfach online bestellen, liefern lassen und sogar im Selbstaufbau überall bequem errichten.</p>
+  <p>Dann nutze schon bald theLiftNest, welches per Knopfdruck diskret unter der Zimmerdecke verschwindet. Einfach online bestellen, liefern lassen und sogar im Selbstaufbau überall bequem errichten.</p>
 
   <p>Bald mehr an dieser Stelle!</p>
-value-points-heading: Auf den Punkt – was macht theLiftNest so wertvoll
+value-points-heading: Auf den Punkt – was macht theLiftNest so wertvoll&#58;
 value-points-text-column-one: "<li>Das Bett verschwindet tagsüber dezent</li> <li>Mehrfach
   nutzbarer Wohnraum</li> <li>Standort des Bettes&#58 überall möglich</li> <li>Tragende
   (senkrechte) Wand ist überflüssig</li> <li>Überallhin lieferbar</li> <li>Selbstbau
