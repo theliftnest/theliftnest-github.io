@@ -4,7 +4,7 @@ date: 2021-02-22T09:45:12.000-05:00
 permalink: "/"
 header-heading: theLiftNest <span class="break"></span>mehr nutzbarer Wohnraum per
   Knopfdruck!
-header-text: Erfahre mehr, sobald der Marktstart Mitte des Jahres anläuft.
+header-text: 'Sicher dir jetzt die zukünftig neusten Infos '
 placeholder: Deine E-Mail
 header-image: "/assets/images/the-liftnest-bed.jpg"
 about-the-project-heading: Die Bettrevolution
